@@ -1,0 +1,75 @@
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    
+        margin:0;
+        padding: 0;
+        /* box-sizing: border-box; */
+        text-decoration: none;
+        border: none;
+        outline: none;
+        /* scroll-behavior: smooth; */
+        font-family: "Poppins", sans-serif;
+        box-sizing: border-box;
+   
+}
+header{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* backdrop-filter: blur(10px); */
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color:  #4F6F52;
+    
+}
+.navbar{
+
+    /* margin-top: 10px; */
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+a{
+    
+    color: white;
+    /* margin-left: 10px; */
+    justify-content: center;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+.navbar a{
+    font-size: 1rem;
+    color: white;
+    margin-left: 2rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #3A4D39;
+    border-bottom: 3px solid  #3A4D39;
+}
+span{
+    color: rgb(69, 141, 69);
+    /* font-family: "Playfair Display"; */
+    text-align: center;
+}
+.learned{
+    color: #3A4D39;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 5rem;
+}
+.uList{
+    text-decoration: none;
+}
