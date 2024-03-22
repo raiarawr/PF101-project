@@ -62,6 +62,11 @@ span{
     /* font-family: "Playfair Display"; */
     text-align: center;
 }
+img{
+    width: 300px;
+    margin-top: 3rem;
+    margin-left: 820px;
+}
 .learned{
     color: #3A4D39;
     width: 50%;
@@ -70,6 +75,7 @@ span{
     margin-left: 25%;
     margin-top: 5rem;
 }
+
 .uList{
     text-decoration: none;
 }

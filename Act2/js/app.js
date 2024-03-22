@@ -3,9 +3,9 @@ import {image} from "./img.js"
 import { sectTwoFunc} from "./card.js"
 
 let sectionOneData ={
-    sect1 : "Saerecore",
-    sect1par : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint laudantium voluptates consectetur doloremque cupiditate perspiciatis porro quibusdam id nobis obcaecati earum dicta Repellendus recusandae quasi nisi eum vitae nesciunt corrupti",
-    imgTop : "xen.jpg",  
+    sect1 : "hsaenth",
+    sect1par : "hsaenth is a Filipino artist that paints traditionally and digitally, her inspiration is wlop (concept artist) and she aspires to reach wlop's level yet she doesn't follow routines that'll elevate her current level which is quite ironic.",
+    imgTop : "fae.png",  
     buttonOne :"Contact Me",   
 }
 
@@ -15,12 +15,12 @@ let sectionOne = document.getElementById("sectionOne")
 
 let sectionTwoData ={
     sect2 : "PROJECT COMPLETED",
-    par1 : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, mollitia aliquam asperiores excepturi consectetur fugit beatae ut id magnam impedit nesciunt illum facilis laborum explicabo est debitis. Repellendus, laudantium minus.",
-    par2 : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, mollitia aliquam asperiores excepturi consectetur fugit beatae ut id magnam impedit nesciunt illum facilis laborum explicabo est debitis. Repellendus, laudantium minus.",
-    par3 : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, mollitia aliquam asperiores excepturi consectetur fugit beatae ut id magnam impedit nesciunt illum facilis laborum explicabo est debitis. Repellendus, laudantium minus.",
+    par1 : "A project out of curiousity which was done without foundation and by skipping anatomy lessons. Memento mori",
+    par2 : "A rush commissioned artwork which depicts dear client's alure.",
+    par3 : "A study that tries to mimic wlop's coloring and lighting techniques.",
     img1    : "zm.png",
-    img2    : "woman.jpg",
-    img3    : "almaris.png",    
+    img2    : "almaris.png",
+    img3    : "woman.jpg",    
     buttonTwo : "Learn More",
     buttonThree : "Learn More",
     buttonFour : "Learn More" 
