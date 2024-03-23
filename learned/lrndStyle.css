@@ -14,6 +14,10 @@
         box-sizing: border-box;
    
 }
+
+body{
+    background-image: url("/Act2/images/bg.jpg");
+}
 header{
     /* position: fixed; */
     top: 0;
@@ -66,6 +70,7 @@ img{
     width: 300px;
     margin-top: 3rem;
     margin-left: 820px;
+
 }
 .learned{
     color: #3A4D39;
@@ -73,9 +78,19 @@ img{
     text-align: center;
     justify-content: center;
     margin-left: 25%;
-    margin-top: 5rem;
+    margin-top: 4rem;
+    font-size: 2rem;
 }
 
 .uList{
     text-decoration: none;
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4F6F52;
+    color: white;
+    text-align: center;
+  }

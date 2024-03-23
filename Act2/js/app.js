@@ -15,21 +15,25 @@ let sectionOne = document.getElementById("sectionOne")
 
 let sectionTwoData ={
     sect2 : "PROJECT COMPLETED",
-    par1 : "A project out of curiousity which was done without foundation and by skipping anatomy lessons. Memento mori",
+    par1 : "A project for Zoey Maeve's first birthday — her first portrait.",
     par2 : "A rush commissioned artwork which depicts dear client's alure.",
-    par3 : "A study that tries to mimic wlop's coloring and lighting techniques.",
+    par3 : "A study for hsaenth's artstyle to test this style's consistency and value.",
+    par4 : "An eye study that tries to mimic realism coloring techniques.",
     img1    : "zm.png",
     img2    : "almaris.png",
     img3    : "woman.jpg",    
+    img4   : "eyestudy.png",    
     buttonTwo : "Learn More",
     buttonThree : "Learn More",
-    buttonFour : "Learn More" 
+    buttonFour : "Learn More",
+    buttonFive : "Learn More" 
+
 
 }
 
-const {sect2, img1, img2, img3, par1, par2, par3,  buttonTwo, buttonThree, buttonFour} = sectionTwoData
+const { img1, img2, img3, img4, par1, par2, par3, par4,  buttonTwo, buttonThree, buttonFour, buttonFive} = sectionTwoData
 let sectionTwo = document.getElementById("sectionTwo")
 
 sectionOne.append(sectOneFunc(sect1, sect1par, buttonOne))
 sectionOne.append(image(imgTop))
-sectionTwo.append(sectTwoFunc(sect2, img1, img2, img3, par1, par2, par3,  buttonTwo, buttonThree, buttonFour))
+sectionTwo.append(sectTwoFunc( img1, img2, img3, img4, par1, par2, par3, par4,  buttonTwo, buttonThree, buttonFour, buttonFive))

@@ -18,7 +18,7 @@
 body{
     font-family: "Poppin";
     background-image: linear-gradient(#effce7,  #3A4D39);
-    background-image: url('./images/bg.jpg') ;
+    background-image: url('/Act2/images/bg.jpg') ;
     background-repeat: no-repeat, repeat;
  
 }
@@ -62,9 +62,10 @@ a{
 }
 .title{
     margin-top: 8rem;
-    color: #3A4D39;
+    /* color: #3A4D39; */
     text-align: center;
     font-size: 1.5rem;
+   
 }
 
 
@@ -92,11 +93,13 @@ a{
     text-align: center;
     font-size: 1rem;
 }
-.name1{
-
-    color: var(--main-color);
+.text{
+    background-image: url('/Act2/images/leaf.jpg');
+    background-clip:text;
+    -webkit-background-clip:text;
+    color: transparent;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 /* .name h1{
     font-family: "Poppin";
@@ -211,7 +214,12 @@ span{
     background-color: var(--nav-color);
 } */
 
-footer{
-    color: var(--text-color);
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4F6F52;
+    color: white;
     text-align: center;
-}
+  }

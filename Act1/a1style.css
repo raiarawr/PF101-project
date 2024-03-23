@@ -14,6 +14,10 @@
         box-sizing: border-box;
    
 }
+
+body{
+    background-image: url("/Act2/images/bg.jpg");
+}
 header{
     position: fixed;
     top: 0;
@@ -70,9 +74,17 @@ img{
     height: 100%;
 }
 h1{
+    color: #4F6F52;
     margin-bottom: 10px;
+    font-size: 3rem;
+}
+h2{
+    color: #3A4D39;
+    opacity: 0.5;
+    font-size: 2rem;
 }
 p{
+    color: #3A4D39;
     margin-top: 1cqi;
     margin-bottom: 1rem;
 }
@@ -89,7 +101,26 @@ p{
 }
 button{
     margin-top: 10px;
+    margin-right: 10px;
     background:#4F6F52;
     color: white;
    padding: 5px 10px;
+   border-radius: 10px;
+   transition: all .2s ease-in-out;
 }
+button:hover{
+    transform: scale(1.2);
+    background-color: #a79266;
+    color: white;
+    border: 1px #4F6F52;
+    border-radius: 10px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4F6F52;
+    color: white;
+    text-align: center;
+  }
