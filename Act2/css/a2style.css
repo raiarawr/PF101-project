@@ -61,7 +61,7 @@ a{
     border-bottom: 3px solid  #3A4D39;
 }
 body{
-    background-image: url("/Act2/images/bg.jpg");
+    background-image: url("./Act2/images/bg.jpg");
 }
 button{
     color: white;
@@ -109,7 +109,7 @@ img{
 .sectOneInfo h1{
     margin-bottom: 0.2rem;
     font-size: 5rem;
-    background-image: url('/Act2/images/leaf.jpg');
+    background-image: url('./Act2/images/leaf.jpg');
     background-clip:text;
     -webkit-background-clip:text;
     color: transparent;
