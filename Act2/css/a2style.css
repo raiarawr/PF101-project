@@ -61,7 +61,7 @@ a{
     border-bottom: 3px solid  #3A4D39;
 }
 body{
-    margin-top: 0;
+    background-image: url("/Act2/images/bg.jpg");
 }
 button{
     color: white;

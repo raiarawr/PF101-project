@@ -18,7 +18,7 @@
 body{
     font-family: "Poppin";
     background-image: linear-gradient(#effce7,  #3A4D39);
-    background-image: url('/Act2/images/bg.jpg') ;
+    background-image: url('../Act2/images/bg.jpg') ;
     background-repeat: no-repeat, repeat;
  
 }
@@ -94,7 +94,7 @@ a{
     font-size: 1rem;
 }
 .text{
-    background-image: url('/Act2/images/leaf.jpg');
+    background-image: url('../Act2/images/leaf.jpg');
     background-clip:text;
     -webkit-background-clip:text;
     color: transparent;
