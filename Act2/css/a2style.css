@@ -109,11 +109,7 @@ img{
 .sectOneInfo h1{
     margin-bottom: 0.2rem;
     font-size: 5rem;
-    background-image: url('./Act2/images/leaf.jpg');
-    background-clip:text;
-    -webkit-background-clip:text;
-    color: transparent;
-    filter: saturate(0.6);
+    color: #4F6F52;
     
 }
 .profile{
