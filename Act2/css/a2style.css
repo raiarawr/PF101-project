@@ -15,7 +15,7 @@
    
 }
 body{
-    background-image: url("./Act2/images/bg.jpg");
+    background-image: url("../images/bg.jpg");
 }
 header{
     position: fixed;
