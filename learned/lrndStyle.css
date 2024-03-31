@@ -19,11 +19,10 @@ body{
     background-image: url("../Act2/images/bg.jpg");
 }
 header{
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    /* backdrop-filter: blur(10px); */
     justify-content: space-between;
     align-items: center;
     z-index: 100;
@@ -67,9 +66,9 @@ span{
     text-align: center;
 }
 img{
-    width: 300px;
+    width: 20%;
     margin-top: 3rem;
-    margin-left: 820px;
+    margin-left: 40%;
 
 }
 .learned{
@@ -78,10 +77,25 @@ img{
     text-align: center;
     justify-content: center;
     margin-left: 25%;
-    margin-top: 4rem;
+    margin-top: 2rem;
     font-size: 2rem;
+    margin-bottom: 5%;
 }
-
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+ td {
+    padding: 8px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: rgb(111, 150, 111);
+}
 .uList{
     text-decoration: none;
 }
