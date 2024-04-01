@@ -1,8 +1,4 @@
 *{
-    /* margin: 0;
-    padding: 0;
-    box-sizing: border-box; */
-    
         margin:0;
         padding: 0;
         /* box-sizing: border-box; */
@@ -14,8 +10,15 @@
         box-sizing: border-box;
    
 }
+:root{
+    --bg-color: #d9ecce;
+    --nav-color: #4F6F52;
+    --text-color: white;
+    --main-color: #3A4D39;
+    
+}
 body{
-    background-image: url("bg.jpg");
+    background-image: url("./bg.jpg");
 }
 header{
     position: fixed;
@@ -71,8 +74,9 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color:#a79266 ;
-    color: white;
+    background-color:var(--bg-color) ;
+    color: var(--main-color);
+    border: solid 1px #2e4d31;
 }
 
 h1{
@@ -146,6 +150,7 @@ img{
     justify-content: center;
     width: 40%;
     margin-left: 30%;
+    margin-bottom: 2rem;
 }
 
 .container{
@@ -209,3 +214,322 @@ footer {
     color: white;
     text-align: center;
   }
+
+  @media  screen and (max-width: 800px) and (max-width:1900px) {
+    *{
+        margin:0;
+        padding: 0;
+        /* box-sizing: border-box; */
+        text-decoration: none;
+        border: none;
+        outline: none;
+        /* scroll-behavior: smooth; */
+        font-family: "Poppins", sans-serif;
+        box-sizing: border-box;
+   
+}
+
+body{
+    background-image: url("../Act2/images/bg.jpg");
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: var(--nav-color);
+    
+}
+.navbar{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+a{ 
+    color: white;
+    /* margin-left: 10px; */
+    justify-content: center;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+.navbar a{
+    font-size: 0.8rem;
+    color: white;
+    margin-left: 2rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #3A4D39;
+    border-bottom: 3px solid  #3A4D39;
+}
+
+body{
+    background-image: url("./Act2/images/bg.jpg");
+}
+button{
+    color: white;
+    background-color:#2e4d31 ;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover{
+    background-color:var(--bg-color) ;
+    color: var(--main-color);
+    border: solid 1px #2e4d31;
+}
+
+h1{
+    text-align: center;
+    
+}
+p{
+    text-align: justify;
+}
+/* img{
+    width: 25%;
+    height: 25%;
+} */
+#sectionOne{
+    display: flex;
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 15%;
+    margin-bottom: 20%; 
+    
+}
+.sectOneInfo p{
+    color: #3A4D39;
+    padding: 10%;
+    border-radius: 10px;
+}
+.sectOneInfo button{
+    margin-top: 0.5rem;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 30%;    
+}
+.sectOneInfo h1{
+    margin-bottom: 0.2rem;
+    font-size: 4rem;
+    color: #4F6F52;
+    
+}
+.profile{
+    width: 1.8rem;
+}
+.profile img{
+    align-self: flex-end;
+    height: 20rem;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    margin-top: 1rem;
+    width: 20rem;
+}
+.profile img:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+.title{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #4F6F52;
+    font-size: 2.5rem;
+}
+.desc{
+    color: #2e4d31;
+    opacity: 0.8;
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ #sectionTwo{
+    justify-content: center;
+} 
+.box{
+    width: 18rem;
+    height: 25rem;
+    background-color: #7b967e;
+    border-radius: 20px;
+    border: solid rgb(72, 110, 75) 2px;
+    transition: all .2s ease-in-out;
+    filter: blur(4px);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    filter: blur(0);
+}
+
+
+.box button{
+    width: 6rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+
+}
+
+.box span{
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    color: white;
+}
+
+.box img{
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    width: 12rem;
+    height: 12rem;
+    margin-right: 5rem;
+} 
+
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 600px) {
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        background-color: var(--nav-color);
+        
+    }
+    .navbar{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+    }
+    a{ 
+        color: white;
+        /* margin-left: 10px; */
+        justify-content: center;
+        margin-left: 2rem;
+        text-decoration: none;
+    }
+    .navbar a{
+        font-size: 0.5rem;
+        color: white;
+        margin-left: 2rem;
+        font-weight: 500;
+        transition: 0.3s ease-in-out;
+        border-bottom: 3px solid transparent;
+    }
+    .navbar a:hover,
+    .navbar a.active{
+        color: #3A4D39;
+        border-bottom: 3px solid  #3A4D39;
+    }
+    
+    body{
+        background-image: url("./Act2/images/bg.jpg");
+    }
+    button{
+        color: white;
+        background-color:#2e4d31 ;
+        border-radius: 10px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color:var(--bg-color) ;
+        color: var(--main-color);
+        border: solid 1px #2e4d31;
+    }
+    
+    h1{
+        text-align: center;
+        
+    }
+    p{
+        text-align: center;
+    }
+    
+    #sectionOne{
+        display: flex;
+        flex-direction: column-reverse;
+        /* width: 50%; */
+        margin-top: 15%;
+        margin-bottom: 20%; 
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sectOneInfo p{
+        color: #3A4D39;
+        width: 100%;
+        margin-left: 30%;
+    }
+    .sectOneInfo button{
+        margin-top: 0.6rem;
+        width: 50%;
+        height: 2rem;
+        margin-left: 50%;    
+    }
+    .sectOneInfo h1{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 0.2rem;
+        font-size: 4rem;
+        color: #4F6F52;
+        
+    }
+    /* .profile{
+        width: 1.8rem;
+    } */
+    .profile img{
+        width: 20rem;
+        height: 20rem;
+        margin-left: 25%;
+        margin-right: 25%;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        transform-origin: bottom;
+        margin-top: 1rem;
+        
+    }
+    .profile img:hover {
+        animation-name: bounce;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-50px); }
+      100% { transform: translateY(0); }
+    }
+}
