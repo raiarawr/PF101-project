@@ -1,27 +1,27 @@
-
-* {
+*{
+    
     margin:0;
     padding: 0;
+    /* box-sizing: border-box; */
     text-decoration: none;
     border: none;
     outline: none;
+    /* scroll-behavior: smooth; */
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+
 }
 :root{
-    --bg-color: #d9ecce;
-    --nav-color: #4F6F52;
-    --text-color: white;
-    --main-color: #3A4D39;
-    
+--bg-color: #d9ecce;
+--nav-color: #4F6F52;
+--text-color: white;
+--main-color: #3A4D39;
+
 }
 body{
-    font-family: "Poppin";
-    background-image: linear-gradient(#effce7,  #3A4D39);
-    background-image: url('../Act2/images/bg.jpg') ;
-    background-repeat: no-repeat, repeat;
- 
+background-image: url("bg.jpg");
 }
+
 header{
     position: fixed;
     top: 0;
@@ -30,8 +30,8 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: var(--nav-color);
-    
+    background-color:  #4F6F52;
+
 }
 .navbar{
     height: 50px;
@@ -40,13 +40,13 @@ header{
     justify-content: center;   
 }
 a{
-    
+
     color: white;
-    /* margin-left: 10px; */
     justify-content: center;
     margin-left: 2rem;
     text-decoration: none;
 }
+
 .navbar a{
     font-size: 1rem;
     color: white;
@@ -60,24 +60,16 @@ a{
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
 }
-.title{
-    margin-top: 8rem;
-    /* color: #3A4D39; */
-    text-align: center;
-    font-size: 1.5rem;
-   
-}
 
 
-.portrait{
-    margin-left: 42%;
-}
 .portrait img{
-    margin-top: 3%;
+    margin-top: 1%;
     justify-content: center;
     position: relative;
     top: 3rem;
-    width: 30%;
+    width: 15%;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -91,7 +83,7 @@ a{
 
     color: var(--main-color);
     text-align: center;
-    font-size: 1rem;
+    font-size: 90%;
 }
 .text{
     background-image: url('../Act2/images/leaf.jpg');
@@ -100,6 +92,8 @@ a{
     color: transparent;
     text-align: center;
     font-size: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 /* .name h1{
     font-family: "Poppin";
@@ -116,7 +110,9 @@ span{
     text-align: center;
     justify-content: center;
     margin-left: 25%;
+    margin-right: 25%;
 }
+
 
 footer {
     position: fixed;
@@ -127,129 +123,101 @@ footer {
     color: white;
     text-align: center;
   }
-
-
-
-  @media screen and (max-width: 800px) and (max-width: 1900px) {
-    * {
+  @media  screen and (max-width: 800px) and (max-width:1900px) {
+    *{
         margin:0;
         padding: 0;
+        /* box-sizing: border-box; */
         text-decoration: none;
         border: none;
         outline: none;
+        /* scroll-behavior: smooth; */
         font-family: "Poppins", sans-serif;
         box-sizing: border-box;
-    }
-    :root{
-        --bg-color: #d9ecce;
-        --nav-color: #4F6F52;
-        --text-color: white;
-        --main-color: #3A4D39;
-        
-    }
-    body{
-        font-family: "Poppin";
-        background-image: linear-gradient(#effce7,  #3A4D39);
-        background-image: url('../Act2/images/bg.jpg') ;
-        background-repeat: no-repeat, repeat;
-     
-    }
-    header{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 100;
-        background-color: var(--nav-color);
-        
-    }
-    .navbar{
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;   
-    }
-    a{ 
-        color: white;
-        /* margin-left: 10px; */
-        justify-content: center;
-        margin-left: 2rem;
-        text-decoration: none;
-    }
-    .navbar a{
-        font-size: 0.8rem;
-        color: white;
-        margin-left: 2rem;
-        font-weight: 500;
-        transition: 0.3s ease-in-out;
-        border-bottom: 3px solid transparent;
-    }
-    .navbar a:hover,
-    .navbar a.active{
-        color: var(--main-color);
-        border-bottom: 2px solid var(--main-color);
-    }
    
-    .portrait{
-        margin-left: 42%;
-    }
-    .portrait img{
-        margin-top: 3%;
-        justify-content: center;
-        position: relative;
-        top: 3rem;
-        width: 40%;
-        border-radius: 50%;
-        box-shadow: 0 0 25px var(--main-color);
-        cursor: pointer;
-        transition: 0.4s ease-in-out;
-    }
-    .portrait img:hover{
-        box-shadow: 0 0 50px var(--main-color),
-                    0 0 100px var(--main-color)
-    }
-    .name{
+}
+
+body{
+    background-image: url("../Act2/images/bg.jpg");
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: var(--nav-color);
     
-        color: var(--main-color);
-        text-align: center;
-        font-size: 0.8rem;
-    }
-    .text{
-        background-image: url('../Act2/images/leaf.jpg');
-        background-clip:text;
-        -webkit-background-clip:text;
-        color: transparent;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-    /* .name h1{
-        font-family: "Poppin";
-    
-    } */
-    span{
-        color: rgb(69, 141, 69);
-        /* font-family: "Playfair Display"; */
-        text-align: center;
-    }
-    .details{
-        color: #3A4D39;
-        width: 50%;
-        text-align: center;
-        justify-content: center;
-        margin-left: 25%;
-        margin-right: 25%;
-        font-size: 0.7rem;
-    }
-    
-    footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: #4F6F52;
-        color: white;
-        text-align: center;
-      }
+}
+.navbar{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+a{ 
+    color: white;
+    /* margin-left: 10px; */
+    justify-content: center;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+.navbar a{
+    font-size: 0.8rem;
+    color: white;
+    margin-left: 2rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+
+.portrait img{
+    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+    top: 3rem;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.portrait img:hover{
+    box-shadow: 0 0 50px var(--main-color),
+                0 0 100px var(--main-color)
+}
+.name{
+
+    color: var(--main-color);
+    text-align: center;
+    font-size: 0.7rem;
+}
+.text{
+    background-image: url('../Act2/images/leaf.jpg');
+    background-clip:text;
+    -webkit-background-clip:text;
+    color: transparent;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+span{
+    color: rgb(69, 141, 69);
+    text-align: center;
+}
+.details{
+    color: #3A4D39;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
   }

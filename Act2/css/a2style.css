@@ -1,4 +1,5 @@
 *{
+    
         margin:0;
         padding: 0;
         /* box-sizing: border-box; */
@@ -18,14 +19,13 @@
     
 }
 body{
-    background-image: url("./bg.jpg");
+    background-image: url("bg.jpg");
 }
 header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    /* backdrop-filter: blur(10px); */
     justify-content: space-between;
     align-items: center;
     z-index: 100;
@@ -87,13 +87,14 @@ p{
     text-align: justify;
 }
 img{
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
 }
 #sectionOne{
     display: flex;
     width: 50%;
-    margin-left: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 15%;
     margin-bottom: 20%; 
     
@@ -102,12 +103,12 @@ img{
     /* background-color: #4F6F52; */
     color: #3A4D39;
     padding: 10%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 .sectOneInfo button{
     margin-top: 1rem;
-    width: 100px;
-    height: 30px;
+    width: 6.25rem;
+    height: 1.875rem;
     margin-left: 42%;    
 }
 .sectOneInfo h1{
@@ -117,16 +118,16 @@ img{
     
 }
 .profile{
-    width: 500px;
+    width: 31.25rem;
 }
 .profile img{
     align-self: flex-end;
-    height: 300px;
+    height: 25rem;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     transform-origin: bottom;
     margin-top: 1rem;
-    width: 400px;
+    width: 25rem;
 }
 .profile img:hover {
     animation-name: bounce;
@@ -162,12 +163,12 @@ img{
     justify-content: center;
 } 
 .box{
-    width: 300px;
-    height: 400px;
-    margin-left: 40px;
+    width: 18.75rem;
+    height: 25;
+    margin-left: 2.5rem;
     background-color: #7b967e;
-    padding: 30px;
-    border-radius: 10px;
+    padding: 1.875rem;
+    border-radius: 0.625rem;
     /* box-shadow: 0 0 20px #2e4d31; */
     /* opacity: 0.8; */
     border: solid rgb(72, 110, 75) 2px;
